@@ -1,0 +1,149 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    
+    scroll-behavior: smooth;
+   
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimentos padrão */
+    background-color: #f7f7f7; /* Cor de fundo do corpo */
+    text-decoration: antiquewhite;
+}
+
+/* Estilos para cada seção */
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Alterado para coluna para rolar verticalmente */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Estilos para cada seção individual */
+#section1 {
+    background-color: #2b2a2a;
+}
+
+#section2 {
+    background-color: #d2d9d2;
+}
+
+#section3 {
+    background-color: #3808bc;
+}
+
+/* Estilos para o menu */
+
+
+/* Estilos para os projetos */
+.project-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.project-item {
+    margin-bottom: 20px;
+}
+
+.project-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+/* Estilos para as redes sociais */
+.container2 {
+    margin-top: 50px;
+   
+   width: 100%;
+    background-color: #2b2a2a;
+    text-align: center;
+    color: aliceblue;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-links li img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.container-black img {
+    
+    
+  
+    display: block;
+ width: 100%;
+ height: 100%;
+
+}
+
+.container-black{
+    background-color: #2b2a2a;
+   
+    overflow: hidden; /* Faz o div não aumentar a altura por causa da imagem */
+
+}
+
+table{
+    border-radius: 20%;
+    text-align: center;
+}
+
+.nav{
+    background-color: #2b2a2a;
+    
+}
+
+.nav-link{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
